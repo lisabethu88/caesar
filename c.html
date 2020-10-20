@@ -1,0 +1,22 @@
+<head>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    
+<center>
+    <h1>Caesar Cypher Generator</h1>
+    <br>
+    <div>
+        <img id = "caesarImg" src="https://i.pinimg.com/originals/96/8d/9f/968d9f1fa6c5304956bddb55c07c5467.png">
+    </div>
+    <br>
+    <input id="textInput" type="text" placeholder="Enter text..." required></input>
+    <br>
+    <input id="shiftInput" type="text" placeholder="Enter shift..." onpaste="return false" onkeypress="return isNumber(event)" required></input>
+    <br>
+    <input id="encodeSubmit" type="submit" value="Encode" onclick="displayCypher()"/><br>
+    <p id="display"></p>
+</center>
+
+<script src="c.js"></script>
+</body>
